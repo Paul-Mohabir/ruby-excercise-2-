@@ -31,6 +31,6 @@ bananas(grocery_list)
 
 puts "The second item on the list is #{grocery_list[1]}"
 puts "#{grocery_list.sort}"
-organized = grocery_list.sort
+grocery_list = grocery_list.sort
 grocery_list.pop
 puts "#{grocery_list}"
